@@ -3,6 +3,7 @@
 *************************************************/
 body {
 	position: relative;
+
 }
 
 video {
@@ -24,18 +25,20 @@ video {
 	display: block;
 	max-width: 735px;
 	margin: 0 auto;
+	color: black;
 }
 
 #actualText {
 	z-index: 3;
 	position: relative;
-	color: white;
+	color: black;
 	margin-top: 40px;
 }
 
 #subtitle {
 	margin-top: 60px;
 	text-align: center;
+	color:black;
 }
 
 #subtext {
@@ -43,20 +46,24 @@ video {
 	font-size: 20px;
 	text-align: center;
 	width: auto;
+	color:black;
 }
 
 section {
 	margin-top: 25px;
 	z-index: 3;
-	color: white;
+	/*color: white;*/
+	color:black;
 }
 
 .text {
 	z-index: 2;
 	position: relative;
-	color: white;
+	/*color: white;*/
 	text-align: center;
+	color:black;
 }
+
 
 input {
 	font-size: 25px;
@@ -86,9 +93,10 @@ p input {
 
 #dematerialize {
 	background-color: white;
-	border-bottom: none;
+	/*border-bottom: none;*/
 	width: 250px;
 	margin: 0 auto;
+	border: solid black 1px;
 }
 
 h2 {
@@ -101,11 +109,12 @@ h1 {
 	text-transform: uppercase;
 	text-align: center;
 	margin: 0 0 0 0;
-	color: white;
+	/*color: white;*/
 	font-family: 'Raleway';
-	border: solid white 10px;
+	border: solid black 5px;
 	padding: 8px 8px 8px 8px;
 	display: inline-block;
+	color:black;
 }
 
 h4, h5 {
